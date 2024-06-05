@@ -1,0 +1,5 @@
+ami_id = "ami-05a5bb48beb785bf1"
+instance_type ="t2.micro"
+key_pair_name = "test-keypair"
+root_volume_size = "10"
+instance_name = "server-1"
