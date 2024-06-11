@@ -4,13 +4,13 @@
  
  2) Set Up AWS Credentials : Configure your AWS access key & secret access key
  
- 3) Write Terraform Configuration Files : Create a directory for your Terraform configuration files and create a file named main.tf.This file will contain the configuration for your EC2 instance.
+ 3) Write Terraform Configuration Files : Create a directory for your Terraform configuration files and create a file named main.tf.This file will contain the configuration for your EC2 instance.If you want to pass any variables then create file named as variable.tf and specify the variables in this file and to declare the value of the variables create another file named as terraform.tfvars 
  
- 4) Initialize Terraform : Open a terminal or command prompt, navigate to the directory where your Terraform files are located, and run the following command :  terraform init
+ 5) Initialize Terraform : Open a terminal or command prompt, navigate to the directory where your Terraform files are located, and run the following command :  terraform init
  
- 5) Plan: After initialization, run the following command. It will show you the actions Terraform will take to create the resources defined in your configuration files :  terraform plan
+ 6) Plan: After initialization, run the following command. It will show you the actions Terraform will take to create the resources defined in your configuration files :  terraform plan
  
- 6) Apply: If the plan looks good, you can apply it to create the resources with the following command : terraform apply --auto-approve
+ 7) Apply: If the plan looks good, you can apply it to create the resources with the following command : terraform apply --auto-approve
  
 # STORING TERRAFORM STATEFILE INTO S3 BUCKET  
 
