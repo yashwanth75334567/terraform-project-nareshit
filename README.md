@@ -1,3 +1,8 @@
+# PROJECT ARCHITECTURE
+
+![image](https://github.com/yashwanth75334567/terraform-project-nareshit/assets/163100944/45ef9c1a-63b1-4b4f-b0bc-58c7da57d73c)
+
+
 # CREATING EC2 INSTANCE USING TERRAFORM
 
  1) Install Terraform  
