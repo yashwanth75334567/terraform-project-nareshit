@@ -1,25 +1,29 @@
 # CREATING EC2 INSTANCE USING TERRAFORM
 
- Install Terraform  
+ 1) Install Terraform  
  
- Set Up AWS Credentials : Configure your AWS access key & secret access key
+ 2) Set Up AWS Credentials : Configure your AWS access key & secret access key
  
- Write Terraform Configuration Files : Create a directory for your Terraform configuration files and create a file named main.tf.This file will contain the configuration for your EC2 instance.
+ 3) Write Terraform Configuration Files : Create a directory for your Terraform configuration files and create a file named main.tf.This file will contain the configuration for your EC2 instance.
  
- Initialize Terraform : Open a terminal or command prompt, navigate to the directory where your Terraform files are located, and run the following command :  terraform init
+ 4) Initialize Terraform : Open a terminal or command prompt, navigate to the directory where your Terraform files are located, and run the following command :  terraform init
  
- Plan: After initialization, run the following command. It will show you the actions Terraform will take to create the resources defined in your configuration files :  terraform plan
+ 5) Plan: After initialization, run the following command. It will show you the actions Terraform will take to create the resources defined in your configuration files :  terraform plan
  
- Apply: If the plan looks good, you can apply it to create the resources with the following command : terraform apply --auto-approve
+ 6) Apply: If the plan looks good, you can apply it to create the resources with the following command : terraform apply --auto-approve
  
 # STORING TERRAFORM STATEFILE INTO S3 BUCKET  
 
- Create an S3 Bucket: First, you need to create an S3 bucket in your AWS account where you'll store the Terraform state file.
+ 1) Create an S3 Bucket: First, you need to create an S3 bucket in your AWS account where you'll store the Terraform state file.
  
- Configure Terraform Backend: This is the configuration to specify S3 as the backend for storing the state file. 
+ 2) Configure Terraform Backend: This is the configuration to specify S3 as the backend for storing the state file.
+    
+     ![image](https://github.com/yashwanth75334567/terraform-project-nareshit/assets/163100944/125fdef6-e078-4503-bcf7-4066199f8c50)
  
- Initialize Terraform : Open a terminal or command prompt, navigate to the directory where your Terraform files are located, and run the following command :  terraform init 
+ 4) Initialize Terraform : Open a terminal or command prompt, navigate to the directory where your Terraform files are located, and run the following command :  terraform init 
  
- Plan: After initialization,  you can run the following command. This command will show you the actions Terraform will take to create the resources defined in your configuration files :  terraform plan
+ 5) Plan: After initialization,  you can run the following command. This command will show you the actions Terraform will take to create the resources defined in your configuration files :  terraform plan
  
- Apply: If the plan looks good, you can apply it to create the resources with the following command : terraform apply --auto-approve
+ 6) Apply: If the plan looks good, you can apply it to create the resources with the following command : terraform apply --auto-approve
+
+
